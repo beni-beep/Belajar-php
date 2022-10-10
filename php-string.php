@@ -1,22 +1,31 @@
 <?php
-  $hello_world = "Saya siswa SMKN 1 Karawang Yang Lagi Belajar PHP";
-  echo $hello_world;
-  echo "<br />";
-  // strlen() mengembalikan panjang string
-  echo strlen($hello_world);
-  echo "<br />";
-  echo str_word_count($hello_world);
-  echo "<br />";
-  echo strrev($hello_world);
-  echo "<br />";
-  echo strpos($hello_world, "SMKN");
-  echo "<br />";
-  echo str_replace("SMKN 1 Karawang", "NESKAR", $hello_world);
-  echo "<br />";
-  echo substr($hello_world, 11, 16);
-  echo "<br />";
-  echo strtoupper($hello_world);
-  echo "<br />";
-  $neskar = substr($hello_world, 11, 16);
-  echo strtolower($neskar);
-?>
+$hallo_ben = "saya siswa SMKN 1 Karawang yang sangat mencintai ngoding";
+echo $hallo_ben;
+echo "<br />";
+echo "<br />";
+echo ("halo saya beni akbar");
+echo "<br />";
+echo strlen("halo saya beni akbar");
+echo "<br />";
+//menghitung panjang string
+echo ("sekolah di SMKN 1 Karawang");
+echo "<br />";
+echo str_word_count("sekolah di SMKN 1 Karawang");
+echo "<br />";
+//menghitung jumlah kata
+echo ("di jurusan");
+echo "<br />";
+echo strrev("di jurusan");
+echo "<br />";
+//membalikan string
+echo ("rekayasa perangkat lunak");
+echo "<br />";
+echo strpos("rekayasa perangkat lunak", "lunak");
+echo "<br />";
+/*fungsi mencari teks tertentu dalam string. Jika kecocokan ditemukan,
+fungsi mengembalikan posisi karakter kecocokan pertama. Jika tidak ada kecocokan yang ditemukan,
+itu akan mengembalikan FALSE */
+
+echo str_replace("SMKN 1 Karawang", "Neskar", $hallo_ben);
+echo "<br />";
+//fungsi menggantikan beberapa karakter dengan beberapa karakter lain dalam sebuah string
